@@ -43,7 +43,7 @@
     width: 100vw;
     height: 100vh;
     background-color: black;
-    color: lightgoldenrodyellow;
+    color: rgb(31, 31, 26);
     font-family: 'papyrus', 'copperplate', 'fantasy', 'Franklin Gothic Medium', sans-serif;
   }
 
@@ -62,6 +62,29 @@
     border: 5px solid #b9a675;
     padding: 10px;
     background-color: #e6d6be
+  }
+  
+
+  .screen {
+    border: solid;
+    border-radius: 40px;
+    box-shadow: 5px 5px #8c8478;
+    padding: 10px;
+    margin: 10px;
+    min-width: 90px;
+    min-height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .previous {
+    font-size: 20px;
+  }
+
+  .current {
+    font-size: 30px;
   }
 
   button {
